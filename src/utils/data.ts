@@ -35,4 +35,58 @@ const services = [
     },
 ];
 
-export { services };
+
+
+
+const icons = [
+    {
+        title: "No Repairs Needed",
+        description: "We buy homes in any condition. There’s no need to worry about paying for costly repairs or updates.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-axe">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M13 9l7.383 7.418c.823 .82 .823 2.148 0 2.967a2.11 2.11 0 0 1 -2.976 0l-7.407 -7.385" />
+  <path d="M6.66 15.66l-3.32 -3.32a1.25 1.25 0 0 1 .42 -2.044l3.24 -1.296l6 -6l3 3l-6 6l-1.296 3.24a1.25 1.25 0 0 1 -2.044 .42z" />
+</svg>`,
+    },
+    {
+        title: "Get more Cash",
+        description: "We’ll send you a cash offer from top home buyers in your area, getting you the best value for your home.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-cash">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M7 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+  <path d="M14 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2" />
+</svg>`,
+    },
+    {
+        title: "No Commissions",
+        description: "No need to pay for out of pocket agent fees and commissions. Our offers are cash, allowing you to sell quickly.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-manual-gearbox">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M5 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M12 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 8l0 8" />
+  <path d="M12 8l0 8" />
+  <path d="M19 8v2a2 2 0 0 1 -2 2h-12" />
+</svg>`,
+    },
+    {
+        title: "Cash offer in 24 hours",
+        description: "After you submit the survey above we will be contacting you within 24 hours with a cash offer for your home.",
+        icon: `<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-hours-24">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M4 13c.325 2.532 1.881 4.781 4 6" />
+  <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2" />
+  <path d="M4 5v4h4" />
+  <path d="M12 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2" />
+  <path d="M18 15v2a1 1 0 0 0 1 1h1" />
+  <path d="M21 15v6" />
+</svg>`,
+    },
+];
+
+
+export { services, icons };
