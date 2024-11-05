@@ -1,0 +1,76 @@
+---
+import Container from "../components/shared/Container.astro";
+import Layout from "../layouts/Layout.astro";
+import Paragraph from "../components/shared/Paragraph.astro";
+import Title from "../components/shared/Title.astro";
+import AboutImagen from "../components/cards/about.astro";
+---
+
+<Layout title="Contact">
+  <Container
+    className="flex flex-col midmd:flex-col gap-10 lg:gap-12  pt-32 lg:pt-36"
+  >
+    <div class="flex flex-col-reverse midmd:flex-row gap-10 lg:gap-12">
+      <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+        <Paragraph className="mt-8">
+          I’m <strong>María Vargas</strong>, a dedicated real estate agent since
+          2020, committed to helping you navigate your real estate journey.
+          Whether you’re looking to buy your dream home or sell your property,
+          my goal is to meet your unique needs with personalized service and
+          expertise. What sets me apart is my genuine care for my clients. Your
+          priorities become my priorities, and I strive to ensure a seamless
+          experience from start to finish. Outside of real estate, I enjoy
+          reading and spending quality time with my husband and kids, which
+          keeps me grounded and inspired. I believe that understanding my
+          clients on a personal level helps me serve you better. Let’s work
+          together to make your real estate dreams a reality!
+        </Paragraph>
+      </div>
+      <AboutImagen image="/images/1.webp" />
+    </div>
+
+    <div class="flex flex-col midmd:flex-row gap-10 lg:gap-12 pt-32 lg:pt-20">
+      <AboutImagen image="/images/2.webp" />
+      <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+        <Paragraph className="mt-8">
+          Hi, I’m <strong>Norman</strong>! With over 7+ years of experience in
+          sales and more than 4 years specializing in real estate, I’ve
+          dedicated my career to helping sellers achieve their goals and find
+          the right solutions for their unique situations. My journey in real
+          estate has been incredibly rewarding, allowing me to connect with
+          clients, understand their needs, and guide them through one of life’s
+          most important decisions. I’m 34 years old, happily married, and a
+          proud father to my son, Valentino. Outside of work, I’m passionate
+          about playing soccer and spending quality time with my family. I
+          believe that balance between career and family fuels my drive to
+          succeed and keeps me grounded in everything I do. I’m here to support
+          you in your real estate journey and make the process as smooth and
+          successful as possible. Let’s work together to turn your real estate
+          goals into reality!
+        </Paragraph>
+      </div>
+    </div>
+
+    <div class="flex flex-col-reverse midmd:flex-row gap-10 lg:gap-12 pt-32 lg:pt-20">
+      <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+        <Paragraph className="mt-8">
+          About <strong>Johnny</strong> I believe that real estate is not just about
+          buildings; it’s about people and the stories we create within them. My
+          journey began in 2009 when I bought my first rental property. However,
+          everything turned upside down but another investor saved me from much pain
+          by bringing value-creating solutions to my real estate problems. I learned
+          to see beyond the surface and envision what could be helping others. Today,
+          with the power of community and collaboration with my partners, I Bring
+          solutions to many homeowners or Investors who need a WIN-WIN exit strategy.
+          Husband, Father of 2, Investor, Connector, Go-Giver, Constant learner,
+          Transaction Coordinator. Favorite quotes: "Don’t wait to buy real estate.
+          Buy real estate and wait.", "In the middle of difficulty lies opportunity."
+          ¨ Don't Catch a Falling Knife ¨ Favorite books: The Bible, Rich Dad Poor
+          Dad, Think and Grow Rich.
+        </Paragraph>
+      </div>
+
+      <AboutImagen image="/images/3.webp" />
+    </div>
+  </Container>
+</Layout>
