@@ -2,10 +2,14 @@
 import Footer from "../components/elements/Footer.astro";
 import Navbar from "../components/elements/Navbar.astro";
 import "../i18next/i18n";
+import { LanguageProvider } from "../context/languageContext";
 
 export interface Props {
   title: string;
 }
+
+
+
 
 const { title } = Astro.props;
 ---
@@ -25,11 +29,16 @@ const { title } = Astro.props;
     />
   </head>
   <body class="overflow-hidden overflow-y-auto bg-body">
+    <LanguageProvider>
     <Navbar />
     <slot />
     <Footer />
+  </LanguageProvider>
   </body>
+
   <script>
+
+  
     const switchTheme = document.querySelector(
       "[data-switch-theme]"
     ) as HTMLButtonElement;

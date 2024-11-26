@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import React, { createContext, useState, useContext} from 'react';
 import i18n from '../i18next/i18n';
 
+
 interface LanguageContextProps {
   language: string;
   changeLanguage: (lng: string) => void;
@@ -30,6 +31,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 
 export const useLanguage = (): LanguageContextProps => {
   const context = useContext(LanguageContext);
+
   if (!context) {
     throw new Error('useLanguage must be used within a LanguageProvider');
   }

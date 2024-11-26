@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "jsx": "react"  // o "react-jsx" si usas React 17 o superior
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
-
