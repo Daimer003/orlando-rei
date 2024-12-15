@@ -166,22 +166,22 @@ import { iconUser, iconPhone, iconEmail, iconText } from "../utils/data.ts";
           });
 
           if (!response.ok) {
-            throw new Error("Error al enviar el formulario. Intenta de nuevo.");
+            throw new Error("There was a problem sending the message.");
           }
 
           const result = await response.json();
 
           if (result.code == 200) {
-            statusMessage.textContent = "¡Mensaje enviado con éxito!";
+            statusMessage.textContent = "Message sent successfully!";
             form.reset(); // Método reset() ahora funciona correctamente
           } else {
             statusMessage.textContent =
-              "Hubo un problema al enviar el mensaje.";
+              "There was a problem sending the message.";
           }
         } catch (error) {
           console.error("Error:", error);
           statusMessage.textContent =
-            "Error al enviar el formulario. Intenta de nuevo.";
+            "Error submitting the form. Try again.";
         }
       });
     } else {
